@@ -1,0 +1,176 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #aa2b33;
+  color: #b8b0b2;
+  font-family: "Nunito", sans-serif;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.fullscreen {
+  min-height: 100vh;
+  background-color: #aa2b33;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fullscreen__body {
+  background-color: #22161a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1021px;
+  height: 732px;
+  -webkit-box-shadow: 0px 36px 23px #490307;
+          box-shadow: 0px 36px 23px #490307;
+  border-radius: 10px;
+}
+
+.card-1 {
+  height: 546px;
+  border-right: 1px solid;
+  border-color: #2d1f24;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card-2 {
+  height: 546px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card {
+  width: 262px;
+  min-height: 406px;
+  margin: 0 53px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.card__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 49px;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+.card__price {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: left;
+  padding-bottom: 4px;
+}
+
+.card__visitors {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: left;
+  padding-bottom: 62px;
+}
+
+ul {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: left;
+  padding-bottom: 62px;
+}
+
+.card__info {
+  text-align: left;
+}
+
+.button {
+  text-decoration: none;
+  height: 63px;
+  width: 262px;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #af2830;
+  text-align: center;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: #22161a;
+  border: 1px solid #af2830;
+  border-radius: 3px;
+}
+
+.button:hover {
+  background: #af2830;
+  color: #fff;
+}
