@@ -2,4 +2,4 @@
 
 UI Design Daily
 
-[1108](1108)
+[1108](https://panaroik.github.io/uidesigndaily/1108/)
